@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-const ShowWrapper = styled.div`
+const GroupMpListWrapper = styled.div`
   
 `;
 
 
 
 export {
-    ShowWrapper,
+    GroupMpListWrapper,
 
 };
