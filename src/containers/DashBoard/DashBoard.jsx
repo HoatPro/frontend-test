@@ -1,15 +1,11 @@
 import React from 'react';
-import { DashBoardWrapper } from './DashBoard.style';
-import Title from '../../components/Title/Title';
-
-class DashBoard extends React.Component {
-  render() {
-    return (
-      <DashBoardWrapper>
-        <Title title="Dashboard" />
-      </DashBoardWrapper>
-    );
-  }
+class DashBoard extends React.Component{
+    render(){
+        return(
+            <div>
+                <h2>DashBoard</h2>
+            </div>
+        )
+    }
 }
-
-export default DashBoard;
+export  default DashBoard

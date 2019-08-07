@@ -87,7 +87,6 @@ class ErrorLog extends React.Component {
             },
             {
                 title: 'Name',
-                // dataIndex:'device_name',
                 key: 'device_name',
                 render:record=>{
                     return record.dataObj.device_name
@@ -97,7 +96,6 @@ class ErrorLog extends React.Component {
 
             {
                 title: 'Ip',
-                // dataIndex:'device_ip',
                 key: 'device_ip',
                 render:record=>{
                     return record.dataObj.device_ip
@@ -105,7 +103,6 @@ class ErrorLog extends React.Component {
             },
             {
                 title: 'FPC Slot',
-                // dataIndex:'fpc_slot',
                 key: 'fpc_slot',
                 render:record=>{
                     return record.dataObj.fpc_slot
@@ -113,7 +110,6 @@ class ErrorLog extends React.Component {
             },
             {
                 title: 'Pic Slot',
-                // dataIndex:'pic_slot',
                 key: 'pic_slot',
                 render:record=>{
                     return record.dataObj.pic_slot
@@ -121,7 +117,6 @@ class ErrorLog extends React.Component {
             },
             {
                 title: 'Card',
-                // dataIndex:'card',
                 key: 'card',
                 render:record=>{
                     return record.dataObj.card
@@ -129,7 +124,6 @@ class ErrorLog extends React.Component {
             },
             {
                 title: 'Log Message',
-                // dataIndex:'log_message',
                 key: 'log_message',
                 render:record=>{
                     return record.dataObj.log_message
@@ -137,7 +131,6 @@ class ErrorLog extends React.Component {
             },
             {
                 title: 'Timestamp',
-                // dataIndex: 'time_stamp',
                 key:'time_stamp',
                 render:record=>{
                     return record.dataObj.time_stamp
