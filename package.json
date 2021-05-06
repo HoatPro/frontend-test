@@ -21,7 +21,7 @@
     "babel-polyfill": "^6.26.0",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "highcharts": "^6.1.2",
+    "highcharts": "^9.0.0",
     "moment": "^2.22.2",
     "prop-types": "^15.6.2",
     "query-string": "^6.1.0",
